@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot-cassandra
+  data:
+    cassandra:
+      keyspace-name: <keyspace-name>
+      contact-points: <astra-db-id>-<region-id>.apps.astra.datastax.com
+      port: 9042
+      username: <client-id>
+      password: <client-secret>
+      local-datacenter: <datacenter-id>
+
+server:
+  port: 8091
